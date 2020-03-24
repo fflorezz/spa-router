@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.navbar {
+  height: 5em;
+  /* border: solid 1px black; */
+}
+
+a {
+  margin-right: 1em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  border: solid 1px black;
+  display: inline-block;
+}
+
+a:hover {
+  border: solid 2px black;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+
+.active {
+  background-color: rgb(206, 206, 206);
+}
